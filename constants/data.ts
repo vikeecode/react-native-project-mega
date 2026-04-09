@@ -1,0 +1,8 @@
+import { icons } from "./icons";
+
+export const tabs = [
+    {name: 'index',title:'Home' , icons: icons.home},
+    {name: 'subscriptions',title:'Subscriptions' , icons: icons.wallet},
+    {name: 'insights',title:'Insights' , icons: icons.activity},
+    {name: 'setting',title:'Settings' , icons: icons.setting},
+]
