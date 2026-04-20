@@ -1,12 +1,11 @@
-import { Tabs } from "expo-router";
 import IconsTabs from "@/compoents/tabsicon-design/iconsTabs";
 import { tabs } from "@/constants/data";
-import { useSafeAreaInsets } from "react-native-safe-area-context";
-import { use } from "react";
 import { colors, components } from "@/constants/theme";
+import { Tabs } from "expo-router";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 const tabbar = components.tabBar;
-const TabLout = ({ children }: { children: React.ReactNode }) => {
+const TabLout = () => {
   const insets = useSafeAreaInsets();
 
   return (

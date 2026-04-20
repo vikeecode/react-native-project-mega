@@ -38,7 +38,20 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      ["expo-font",
+    {"fonts": [
+      "./assets/fonts/Roboto/static/Roboto-Regular.ttf",
+      "./assets/fonts/Roboto/static/Roboto-Medium.ttf",
+      "./assets/fonts/Roboto/static/Roboto-Bold.ttf",
+      "./assets/fonts/Roboto/static/Roboto-SemiBold.ttf",
+      "./assets/fonts/Roboto/static/Roboto-Italic.ttf",
+      "./assets/fonts/Roboto/static/Roboto-MediumItalic.ttf",
+      "./assets/fonts/Roboto/static/Roboto-BoldItalic.ttf",
+      "./assets/fonts/Roboto/static/Roboto-Light.ttf",
+      "./assets/fonts/Roboto/static/Roboto-LightItalic.ttf"
+
+    ]}]
     ],
     "experiments": {
       "typedRoutes": true,
